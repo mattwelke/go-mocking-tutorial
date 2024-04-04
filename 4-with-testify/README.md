@@ -109,17 +109,3 @@ testDataSource.AssertExpectations(t)
 ```
 
 This is because testify tracked the expectations we set up. It knows how to determine whether the expectations were met when we call `AssertExpectations` at the end of the test case.
-
-Another advantage over the previous approach is that because error messages when assertions fail are delegated to a library, the error messages are standardized. Consistency is good, especially when working on large teams & projects!
-
-The error message from a failing test before:
-
-```
-
-```
-
-The error message now:
-
-```
-
-```

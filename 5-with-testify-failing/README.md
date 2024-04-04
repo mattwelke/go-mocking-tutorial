@@ -27,3 +27,5 @@ FAIL
 FAIL	example.com/cache	0.002s
 FAIL
 ```
+
+This demonstrates another advantage over the previous approach. Because error messages when assertions fail are delegated to a library, the error messages are standardized. This makes testing more consistent across teams or the various projects at an organization.
